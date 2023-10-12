@@ -8,7 +8,7 @@ package ex05_cha_sorinoks;
  *
  * @author Kiley
  */
-public class StoreSim {
+public class EX05_CHA_SorinoKS {
       public static void main(String[] args) {
     // Create items
     Item i1 = new Item("Burger", "food", 50);
