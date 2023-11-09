@@ -25,4 +25,7 @@ WaterType: a Monster that has a type "water", strong against "fire", weak agains
     public void special(){
         def += 2;
         hp -= maxHP * 0.1;
-        System.out.println(name + " Defense In
+        System.out.println(name + " Defense Increase!\n" + "Current Defense: " + this.def + "! | Current HP: " + this.hp + "\n");
+    }
+}
+
