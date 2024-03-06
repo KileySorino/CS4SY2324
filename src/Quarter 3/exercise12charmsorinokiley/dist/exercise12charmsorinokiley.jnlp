@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="exercise12charmsorinokiley.jnlp">
+  <information>
+    <title>exercise12charmsorinokiley</title>
+    <vendor>Kiley</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="exercise12charmsorinokiley.jar" size="22688" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="exercise12charmsorinokiley.Exercise12charmsorinokiley"  name="exercise12charmsorinokiley" />
+  <update check="always"/>
+</jnlp>
