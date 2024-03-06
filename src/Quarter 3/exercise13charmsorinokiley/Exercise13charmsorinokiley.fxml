@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="245.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exercise13charmsorinokiley.FXMLDocumentController">
+   <children>
+      <Button fx:id="next" layoutX="122.0" layoutY="198.0" mnemonicParsing="false" onAction="#nextSubject" text="Next -&gt;" />
+      <Button fx:id="previous" layoutX="24.0" layoutY="198.0" mnemonicParsing="false" onAction="#previousSubject" text="&lt;- Previous" />
+      <ImageView fx:id="subjectIcon" fitHeight="150.0" fitWidth="150.0" layoutX="24.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" />
+      <Text layoutX="192.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subject: " />
+      <Text layoutX="192.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Units: " />
+      <Text layoutX="192.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grade: " />
+      <Label fx:id="subjectName" layoutX="258.0" layoutY="36.0" text=" " />
+      <Label fx:id="subjectUnit" layoutX="258.0" layoutY="90.0" text=" " />
+      <Label fx:id="subjectGrade" layoutX="258.0" layoutY="145.0" text=" " />
+      <Text layoutX="381.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search:" wrappingWidth="44.290367126464844" />
+      <TextField fx:id="search" layoutX="381.0" layoutY="54.0" onAction="#submitString" prefHeight="26.0" prefWidth="170.0" />
+      <Text fx:id="alert" fill="RED" layoutX="381.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subject Not Available" />
+   </children>
+</AnchorPane>
